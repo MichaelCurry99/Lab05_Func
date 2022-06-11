@@ -10,15 +10,14 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
 // declared my array variable
-  let mySum = a+b;
-  let mySumString = `The product of ${a} and ${b} is ${sum}.`
-  // let myReturnArray = [mySum,mySumString]
+let array = [a+b,`The sum of ${a} and ${b} is ${a+b}.`];
 
-  return myReturnArray
+console.log(array);
+return array;
 }
 
 // Here is the test for sum(); uncomment it to run it
-console.log (sum(4, 7))
+testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -32,12 +31,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-    let myMultiplication = a*b;
-    let myMultiplicationString = `The product of ${a} and ${b} is ${multiply}.`
-    let myReturnArray = [myMultiplication,myMultiplicationString]
-
-    return myReturnArray
-
+    
 }
 
 // Here is the test for multiply(); uncomment it to run it
