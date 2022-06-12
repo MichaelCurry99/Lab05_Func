@@ -12,7 +12,7 @@ function sum(a, b) { //eslint-disable-line
 // declared my array variable
 let array = [a+b,`The sum of ${a} and ${b} is ${a+b}.`];
 
-console.log(array);
+// console.log(array);
 return array;
 }
 
@@ -33,7 +33,7 @@ Test this function by hand in the console to get it working, and when you think 
 function multiply(a, b) { //eslint-disable-line
   let array = [a*b,`The product of ${a} and ${b} is ${a*b}.`];
 
-  console.log(array);
+  // console.log(array);
   return array
 }
 
@@ -59,7 +59,7 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
   a*b*c, `The product of ${a} and ${b} and ${c} is ${a*b*c}.`];
   
   
-  console.log(array);
+  // console.log(array);
   return array
 }
 
@@ -139,7 +139,7 @@ function multiplyAnyArray(dynamicArray) { //eslint-disable-line
       ) => previousValue * currentValue
   )
   
-  console.log(currentAns);
+  // console.log(currentAns);
   
   
 }
